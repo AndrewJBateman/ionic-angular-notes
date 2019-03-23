@@ -1,6 +1,7 @@
 # Ionic Angular Notes
 
-App to show recipes as a list and in a detailed view, using the [Ionic 4 framework](https://ionicframework.com/docs).
+App to show recipes as a list and in a detailed view, using the [Ionic 4 framework](https://ionicframework.com/docs).7
+[Ionic Capacitor](https://capacitor.ionicframework.com/) is used to biult the web app to run on Android.
 
 ## Table of contents
 
@@ -24,6 +25,7 @@ Home page is a list of recipes. Click on one and it shows the detailed recipe pa
 ## Technologies
 
 * Ionic/angular - version 4.0.0
+* [Ionic Capacitor](https://capacitor.ionicframework.com/docs/) - version
 * Ionic DevApp, to allow app to run on an iOS or Android device.
 
 ## Setup
