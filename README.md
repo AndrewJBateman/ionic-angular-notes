@@ -16,11 +16,12 @@ App to show recipes as a list and in a detailed view, using the [Ionic 4 framewo
 
 ## General info
 
-Home page is a list of recipes. Click on one and it shows the detailed recipe page using the recipe id.
+Home page is a list of recipes. Click on one and it shows the detailed recipe page using the recipe id. Capacitor installed so app can be run on android. Build file sent to Android studio. 
 
 ## Screenshots
 
 ![Home Page Recipe List](./img/recipe-list.png)
+![Android Studio android phone emulator](./img/)
 
 ## Technologies
 

@@ -1,14 +1,14 @@
 <ion-header>
-  <ion-toolbar color="primary">
+  <ion-toolbar color="secondary">
     <ion-buttons slot="start">
-      <ion-back-button defaultHref="/recipes"></ion-back-button>
+      <ion-back-button defaultHref='/recipes'></ion-back-button>
     </ion-buttons>
-    <ion-title>{{ loadedRecipe.title }}</ion-title>
     <ion-buttons slot="primary">
       <ion-button (click)="onDeleteRecipe()">
-        <ion-icon name="trash"></ion-icon>
+        <ion-icon slot="icon-only" name="trash"></ion-icon>
       </ion-button>
     </ion-buttons>
+		<ion-title>{{ loadedRecipe.title }}</ion-title>
   </ion-toolbar>
 </ion-header>
 
@@ -16,7 +16,8 @@
   <ion-grid no-padding>
     <ion-row>
       <ion-col no-padding>
-        <ion-img [src]="loadedRecipe.imageUrl"></ion-img></ion-col>
+        <ion-img [src]="loadedRecipe.imageUrl"></ion-img>
+			</ion-col>
     </ion-row>
     <ion-row>
       <ion-col>

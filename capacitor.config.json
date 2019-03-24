@@ -1,0 +1,6 @@
+{
+  "appId": "ionic.angular.notes",
+  "appName": "ionic-angular-notes",
+  "bundledWebRuntime": false,
+  "webDir": "www"
+}

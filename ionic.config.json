@@ -1,5 +1,7 @@
 {
   "name": "ionic-angular-notes",
-  "integrations": {},
+  "integrations": {
+    "capacitor": {}
+  },
   "type": "angular"
 }

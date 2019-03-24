@@ -22,14 +22,20 @@ export class RecipesService {
 		{
 			id: 'r3',
 			title: 'Toffee Apples',
-			imageUrl: 'http://www.fnstatic.co.uk/images/content/recipe/lyle-s-span-class-trademark-reg-span-toffee-apples.jpg',
+			imageUrl: 'https://image.shutterstock.com/image-photo/toffee-apple-450w-249373123.jpg',
 			ingredients: ['Apples', 'Toffee', 'Sticks']
 		},
 		{
 			id: 'r4',
 			title: 'Salmon Bake',
-			imageUrl: 'http://www.fnstatic.co.uk/images/content/recipe/madidi-s-salmon.jpg',
+			imageUrl: 'https://image.shutterstock.com/image-photo/salmon-roasted-oven-butter-parsley-450w-590193029.jpg',
 			ingredients: ['Salmon', 'Herbs', 'Greens']
+		},
+				{
+			id: 'r5',
+			title: 'Peppa Pig Pie',
+			imageUrl: 'https://img2.rtve.es/i/?w=250&crop=no&i=1426503029562.JPG',
+			ingredients: ['Peppa', 'Pig', 'Pie']
 		}
 	];
 
