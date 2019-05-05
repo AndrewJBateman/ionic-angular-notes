@@ -16,7 +16,7 @@ App to show recipes as a list and in a detailed view, using the [Ionic 4 framewo
 
 ## General info
 
-Home page is a list of recipes. Click on one and it shows the detailed recipe page using the recipe id. Capacitor installed so app can be run on android. Build file sent to Android studio. 
+Home page is a list of recipes. Click on one and it shows the detailed recipe page using the recipe id. Capacitor installed so app can be run on android. Build file sent to Android studio.
 
 ## Screenshots
 
@@ -39,12 +39,29 @@ Home page is a list of recipes. Click on one and it shows the detailed recipe pa
 * functions to search for info and retrieve more detailed info.
 
 ```typescript
+getAllRecipes() {
+  return [...this.recipes];
+}
+// return a single recipe for an id
+getRecipe(recipeId: string) {
+  return {
+    ...this.recipes.find(recipe => {
+      return recipe.id === recipeId;
+    })
+  };
+}
 
+// delete a recipe using the filter function and recipe id
+  deleteRecipe(recipeId: string) {
+    this.recipes = this.recipes.filter(recipe => {
+      return recipe.id !== recipeId;
+    });
+}
 ```
 
 ## Features
 
-* Example 1
+* updated to latest ionic/angular versions. Dependencies updated and conflicts resolved.
 
 ## Status & To-do list
 
