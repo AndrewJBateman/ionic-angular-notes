@@ -15,16 +15,17 @@ App to show recipes as a list and in a detailed view, using the [Ionic 4 framewo
 
 ## General info
 
-Home page is a list of recipes. Click on one and it shows the detailed recipe page using the recipe id. Capacitor installed so app can be run on android.
+The Home page is a list of recipes. Click on one and it shows the detailed recipe page using the recipe id. Capacitor installed so app can be run on android.
 
 ## Screenshots
 
 ![Home Page Recipe List](./img/recipe-list.png)
+![Home Page Recipe List](./img/recipe-detail.png)
 
 ## Technologies
 
-* Ionic/angular - version 4.0.0
-* [Ionic Capacitor](https://capacitor.ionicframework.com/docs/) - version
+* [Ionic/angular v 4.3.1](https://ionicframework.com/)
+* [Ionic Capacitor framework v1.0.0-beta](https://capacitor.ionicframework.com/)
 * Ionic DevApp, to allow app to run on an iOS or Android device.
 
 ## Setup
@@ -67,7 +68,7 @@ getRecipe(recipeId: string) {
 
 * Status: Working list of recipes, click on one and it shows the detailed recipe page via recipe id - see screen-print. Published to gh-pages
 
-* To-do: change data in recipes.services.ts. Add functionality.
+* To-do: change data in recipes.services.ts. Add functionality. run in Android simulator.
 
 ## Inspiration
 
