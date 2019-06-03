@@ -1,6 +1,6 @@
 # Ionic Angular Notes
 
-App to show recipes as a list and in a detailed view, using the [Ionic 4 framework](https://ionicframework.com/docs).
+App to show recipes as a list and in a detailed view, using the [Ionic 5 framework](https://ionicframework.com/docs).
 
 ## Table of contents
 
@@ -24,8 +24,12 @@ The Home page is a list of recipes. Click on one and it shows the detailed recip
 
 ## Technologies
 
+* [Ionic v5.7.0](https://ionicframework.com/)
+
 * [Ionic/angular v 4.3.1](https://ionicframework.com/)
-* [Ionic Capacitor framework v1.0.0-beta](https://capacitor.ionicframework.com/)
+
+* [Ionic Capacitor framework v1.0.0](https://capacitor.ionicframework.com/)
+
 * Ionic DevApp, to allow app to run on an iOS or Android device.
 
 ## Setup
@@ -76,4 +80,4 @@ Project inspired by [Acadamind's 'Ionic 4 & Angular Tutorial For Beginners - Cra
 
 ## Contact
 
-Created by [ABateman](https://www.andrewbateman.org) - feel free to contact me!
+Repo created by [ABateman](https://www.andrewbateman.org) - feel free to contact me!
