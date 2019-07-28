@@ -1,4 +1,6 @@
 import { NgModule } from '@angular/core';
+
+// PreloadAllModules provides a preloading strategy that preloads all modules as quickly as possible.
 import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [

@@ -1,9 +1,9 @@
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute, RouterModule, Router } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
+import { AlertController } from '@ionic/angular';
 
 import { RecipesService } from './../recipes.service';
 import { Recipe } from '../recipe.model';
-import { AlertController } from '@ionic/angular';
 
 @Component({
 	selector: 'app-recipe-detail',
@@ -25,6 +25,7 @@ export class RecipeDetailPage implements OnInit {
 		console.log('ngOnInit');
 		this.activatedRoute.paramMap.subscribe(paramMap => {
 			if (!paramMap.has('recipeId')) {
+				// redirect
 				this.router.navigate(['/recipes']);
 				return;
 			}
@@ -34,9 +35,10 @@ export class RecipeDetailPage implements OnInit {
 	}
 
 	onDeleteRecipe() {
-		this.alertCtrl.create(
-			{
-				header: 'Are you sure?', message: 'Do you really want to delete the recipe?',
+		this.alertCtrl
+			.create({
+				header: 'Are you sure?',
+				message: 'Do you really want to delete the recipe?',
 				buttons: [
 					{
 						text: 'Cancel',
@@ -54,5 +56,4 @@ export class RecipeDetailPage implements OnInit {
 				alertEl.present();
 			});
 	}
-
 }

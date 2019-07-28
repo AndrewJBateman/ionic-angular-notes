@@ -1,3 +1,4 @@
+import { RecipeItemComponent } from './recipe-item/recipe-item.component';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
@@ -21,6 +22,6 @@ const routes: Routes = [
 		IonicModule,
 		RouterModule.forChild(routes)
 	],
-	declarations: [RecipesPage]
+	declarations: [RecipesPage, RecipeItemComponent]
 })
 export class RecipesPageModule {}
