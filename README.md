@@ -1,8 +1,8 @@
-# Ionic Angular Notes
+# :zap: Ionic Angular Notes
 
-App to show recipes as a list and in a detailed view, using the [Ionic 5 framework](https://ionicframework.com/docs).
+* App to show recipes as a list and in a detailed view, using the [Ionic 5 framework](https://ionicframework.com/docs).
 
-## Table of contents
+## :page_facing_up: Table of contents
 
 * [General info](#general-info)
 * [Screenshots](#screenshots)
@@ -13,31 +13,28 @@ App to show recipes as a list and in a detailed view, using the [Ionic 5 framewo
 * [Inspiration](#inspiration)
 * [Contact](#contact)
 
-## General info
+## :books: General info
 
-The Home page is a list of recipes. Click on one and it shows the detailed recipe page using the recipe id. Capacitor installed so app can be run on android.
+* The Home page is a list of recipes. Click on one and it shows the detailed recipe page using the recipe id. Capacitor installed so app can be run on android.
 
-## Screenshots
+## :camera: Screenshots
 
 ![Recipe List](./img/recipe-list.png)
 ![Recipe Detail Page](./img/recipe-detail.png)
 
-## Technologies
+## :signal_strength: Technologies
 
 * [Ionic v5.10.0](https://ionicframework.com/)
-
 * [Ionic/angular v 4.7.1](https://ionicframework.com/)
-
 * [Ionic Capacitor framework v1.1.1](https://capacitor.ionicframework.com/)
-
 * Ionic DevApp, to allow app to run on an iOS or Android device.
 
-## Setup
+## :floppy_disk: Setup
 
 * To start the server on _localhost://8100_ type: 'ionic serve'
 * The Ionic DevApp was installed on an Android device from the Google Play app store.
 
-## Code Examples
+## :computer: Code Examples
 
 * functions to search for info and retrieve more detailed info.
 
@@ -62,22 +59,20 @@ getRecipe(recipeId: string) {
 }
 ```
 
-## Features
+## :cool: Features
 
 * [Ionic Capacitor](https://capacitor.ionicframework.com/) used to build the web app for Android.
-
 * 07/2019: Updated to latest ionic/angular versions. Dependencies updated and conflicts resolved.
 
-## Status & To-do list
+## :clipboard: Status & To-do list
 
 * Status: Working list of recipes, click on one and it shows the detailed recipe page via recipe id, back button works and delete button works with alert appearing correctly - see screen-print. Published to gh-pages.
-
 * To-do: change data in recipes.services.ts. Add functionality. run in Android simulator.
 
-## Inspiration
+## :clap: Inspiration
 
-[Acadamind Udemy Course: Ionic 4 - Build iOS, Android & Web Apps with Ionic & Angular](https://www.udemy.com/ionic-2-the-practical-guide-to-building-ios-android-apps/)
+* [Acadamind Udemy Course: Ionic 4 - Build iOS, Android & Web Apps with Ionic & Angular](https://www.udemy.com/ionic-2-the-practical-guide-to-building-ios-android-apps/)
 
-## Contact
+## :envelope: Contact
 
-Repo created by [ABateman](https://www.andrewbateman.org) - feel free to contact me!
+* Repo created by [ABateman](https://www.andrewbateman.org) - feel free to contact me!
