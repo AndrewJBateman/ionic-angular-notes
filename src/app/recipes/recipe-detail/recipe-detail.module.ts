@@ -1,17 +1,17 @@
-import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
-import { FormsModule } from '@angular/forms';
-import { Routes, RouterModule } from '@angular/router';
+import { NgModule } from "@angular/core";
+import { CommonModule } from "@angular/common";
+import { FormsModule } from "@angular/forms";
+import { Routes, RouterModule } from "@angular/router";
 
-import { IonicModule } from '@ionic/angular';
+import { IonicModule } from "@ionic/angular";
 
-import { RecipeDetailPage } from './recipe-detail.page';
+import { RecipeDetailPage } from "./recipe-detail.page";
 
 const routes: Routes = [
 	{
-		path: '',
-		component: RecipeDetailPage
-	}
+		path: "",
+		component: RecipeDetailPage,
+	},
 ];
 
 @NgModule({
@@ -19,8 +19,8 @@ const routes: Routes = [
 		CommonModule,
 		FormsModule,
 		IonicModule,
-		RouterModule.forChild(routes)
+		RouterModule.forChild(routes),
 	],
-	declarations: [RecipeDetailPage]
+	declarations: [RecipeDetailPage],
 })
 export class RecipeDetailPageModule {}

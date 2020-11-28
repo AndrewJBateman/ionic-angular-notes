@@ -21,11 +21,7 @@
       "rxjs/Rx"
     ],
     "import-spacing": true,
-    "indent": [
-      true,
-      "tabs",
-      2
-    ],
+    "indent": false,
     "interface-over-type-literal": true,
     "label-position": true,
     "max-line-length": [
@@ -87,7 +83,7 @@
     "prefer-const": true,
     "quotemark": [
       true,
-      "single"
+      "double"
     ],
     "radix": true,
     "semicolon": [

@@ -1,42 +1,42 @@
 <!-- header with back button, delete button that calls function onDeleteRecipe() and title-->
 <ion-header>
-  <ion-toolbar color="primary">
-    <ion-buttons slot="start">
-      <ion-back-button defaultHref='/recipes'></ion-back-button>
+	<ion-toolbar color="primary">
+		<ion-buttons slot="start">
+			<ion-back-button defaultHref="/recipes"></ion-back-button>
 		</ion-buttons>
 		<ion-title>{{ loadedRecipe.title }}</ion-title>
-    <ion-buttons slot="primary">
-      <ion-button (click)="onDeleteRecipe()">
-        <ion-icon slot="icon-only" name="trash"></ion-icon>
-      </ion-button>
-    </ion-buttons>
-  </ion-toolbar>
+		<ion-buttons slot="primary">
+			<ion-button (click)="onDeleteRecipe()">
+				<ion-icon slot="icon-only" name="trash"></ion-icon>
+			</ion-button>
+		</ion-buttons>
+	</ion-toolbar>
 </ion-header>
 
-<!-- main content with image and title (from the recipes.service.ts Recipes array) 
+<!-- main content with image and title (from the recipes.service.ts Recipes array)
 ion grid flexbox system used for responsive layout with rows and columns.
 ngFor loop to list recipe ingredients
 -->
 <ion-content>
-  <ion-grid no-padding>
-    <ion-row>
-      <ion-col no-padding>
-        <ion-img [src]="loadedRecipe.imageUrl"></ion-img>
+	<ion-grid no-padding>
+		<ion-row>
+			<ion-col no-padding>
+				<ion-img [src]="loadedRecipe.imageUrl"></ion-img>
 			</ion-col>
-    </ion-row>
-    <ion-row>
-      <ion-col>
-        <h1 text-center>{{ loadedRecipe.title }}</h1>
-      </ion-col>
-    </ion-row>
-    <ion-row>
-      <ion-col>
-        <ion-list>
-          <ion-item *ngFor="let ig of loadedRecipe.ingredients">
-            {{ ig }}
-          </ion-item>
-        </ion-list>
-      </ion-col>
-    </ion-row>
-  </ion-grid>
+		</ion-row>
+		<ion-row>
+			<ion-col>
+				<h1 text-center>{{ loadedRecipe.title }}</h1>
+			</ion-col>
+		</ion-row>
+		<ion-row>
+			<ion-col>
+				<ion-list>
+					<ion-item *ngFor="let ig of loadedRecipe.ingredients">
+						{{ ig }}
+					</ion-item>
+				</ion-list>
+			</ion-col>
+		</ion-row>
+	</ion-grid>
 </ion-content>
