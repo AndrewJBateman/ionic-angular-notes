@@ -1,6 +1,12 @@
 # :zap: Ionic Angular Notes
 
 * App to show recipes as a list and in a detailed view, using the [Ionic 5 framework](https://ionicframework.com/docs).
+* **Note:** to open web links in a new window use: _ctrl+click on link_
+
+![GitHub repo size](https://img.shields.io/github/repo-size/AndrewJBateman/ionic-angular-notes?style=plastic)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/AndrewJBateman/ionic-angular-notes?style=plastic)
+![GitHub Repo stars](https://img.shields.io/github/stars/AndrewJBateman/ionic-angular-notes?style=plastic)
+![GitHub last commit](https://img.shields.io/github/last-commit/AndrewJBateman/ionic-angular-notes?style=plastic)
 
 ## :page_facing_up: Table of contents
 
@@ -14,6 +20,7 @@
   * [:cool: Features](#cool-features)
   * [:clipboard: Status & To-do list](#clipboard-status--to-do-list)
   * [:clap: Inspiration](#clap-inspiration)
+  * [:file_folder: License](#file_folder-license)
   * [:envelope: Contact](#envelope-contact)
 
 ## :books: General info
@@ -32,8 +39,8 @@
 
 * [Ionic v5](https://ionicframework.com/)
 * [Ionic/angular v5](https://ionicframework.com/)
-* [Angular framework v11](https://angular.io/)
-* [Capacitor framework v2](https://capacitor.ionicframework.com/)
+* [Angular framework v12](https://angular.io/)
+* [Capacitor framework v3](https://capacitor.ionicframework.com/)
 * Ionic DevApp, to allow app to run on an iOS or Android device.
 
 ## :floppy_disk: Setup
@@ -73,13 +80,17 @@ getRecipe(recipeId: string) {
 
 ## :clipboard: Status & To-do list
 
-* Status: Working. Passes linting. Published to gh-pages.
-* To-do: change data in recipes.services.ts. Add functionality. run in Android simulator.
+* Status: Working. Passes linting. Updated may 2021.
+* To-do: change data in `recipes.services.ts`. Add functionality. run in Android simulator.
 
 ## :clap: Inspiration
 
 * [Acadamind Udemy Course: Ionic 4 - Build iOS, Android & Web Apps with Ionic & Angular](https://www.udemy.com/ionic-2-the-practical-guide-to-building-ios-android-apps/)
 
+## :file_folder: License
+
+* This project is licensed under the terms of the MIT license.
+
 ## :envelope: Contact
 
-* Repo created by [ABateman](https://www.andrewbateman.org) - feel free to contact me!
+* Repo created by [ABateman](https://github.com/AndrewJBateman), email: gomezbateman@yahoo.com
