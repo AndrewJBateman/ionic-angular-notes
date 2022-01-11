@@ -1,6 +1,6 @@
 # :zap: Ionic Angular Notes
 
-* App to show recipes as a list and in a detailed view, using the [Ionic 5 framework](https://ionicframework.com/docs).
+* App to show recipes as a list and in a detailed view, using the [Ionic framework](https://ionicframework.com/docs).
 * **Note:** to open web links in a new window use: _ctrl+click on link_
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/AndrewJBateman/ionic-angular-notes?style=plastic)
@@ -37,9 +37,9 @@
 
 ## :signal_strength: Technologies
 
-* [Ionic v5](https://ionicframework.com/)
-* [Ionic/angular v5](https://ionicframework.com/)
-* [Angular framework v12](https://angular.io/)
+* [Ionic v6](https://ionicframework.com/)
+* [Ionic/angular v6](https://ionicframework.com/)
+* [Angular framework v13](https://angular.io/)
 * [Capacitor framework v3](https://capacitor.ionicframework.com/)
 * Ionic DevApp, to allow app to run on an iOS or Android device.
 
@@ -80,7 +80,7 @@ getRecipe(recipeId: string) {
 
 ## :clipboard: Status & To-do list
 
-* Status: Working. Passes linting. Updated may 2021.
+* Status: Working.
 * To-do: change data in `recipes.services.ts`. Add functionality. run in Android simulator.
 
 ## :clap: Inspiration
